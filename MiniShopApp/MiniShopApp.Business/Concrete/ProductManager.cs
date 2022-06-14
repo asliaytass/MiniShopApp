@@ -11,7 +11,7 @@ namespace MiniShopApp.Business.Concrete
 {
     public class ProductManager : IProductService
     {
-        private readonly IProductRepository _productRepository;
+        private IProductRepository _productRepository;
         public ProductManager(IProductRepository productRepository)
         {
             _productRepository = productRepository;
@@ -22,9 +22,14 @@ namespace MiniShopApp.Business.Concrete
             throw new NotImplementedException();
         }
 
-        public void Create(Product entity, int[] categoryIds)
+        public bool Create(Product entity, int[] categoryIds)
         {
-            _productRepository.Create(entity, categoryIds);
+            if (Validation(entity))
+            {
+                _productRepository.Create(entity, categoryIds);
+                return true;
+            }
+            return false;
         }
 
         public void Delete(Product entity)
@@ -86,5 +91,21 @@ namespace MiniShopApp.Business.Concrete
             _productRepository.Update(entity, categoryIds);
         }
 
+        public string ErrorMessage { get; set; }
+        public bool Validation(Product entity)
+        {
+            var isValid = true;
+            if (string.IsNullOrEmpty(entity.Name))
+            {
+                ErrorMessage += $"Ürün adı boş geçilemez.\n";
+                isValid = false;
+            }
+            if (entity.Price<=0)
+            {
+                ErrorMessage += $"Ürün fiyatı 0'dan büyük olmalıdır.\n";
+                isValid = false;
+            }
+            return isValid;
+        }
     }
 }

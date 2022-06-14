@@ -14,11 +14,7 @@ namespace MiniShopApp.Data.Concrete.EfCore
     {
         public void Create(TEntity entity)
         {
-            using (var context = new TContext())
-            {
-                context.Set<TEntity>().Add(entity);
-                context.SaveChanges();
-            }
+            throw new NotImplementedException();
         }
 
         public void Delete(TEntity entity)
@@ -46,13 +42,9 @@ namespace MiniShopApp.Data.Concrete.EfCore
             }
         }
 
-        public virtual void Update(TEntity entity)
+        public void Update(TEntity entity)
         {
-            using (var context = new TContext())
-            {
-                context.Entry(entity).State = EntityState.Modified;
-                context.SaveChanges();
-            }
+            throw new NotImplementedException();
         }
     }
 }

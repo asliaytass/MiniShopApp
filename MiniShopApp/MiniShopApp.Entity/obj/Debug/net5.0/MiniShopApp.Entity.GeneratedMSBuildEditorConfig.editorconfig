@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = MiniShopApp.Entity
-build_property.ProjectDir = C:\Users\MONSTER\Desktop\Web_6_Projects-Validation\Web_6_Projects-Validation\Week_14\MiniShopApp\MiniShopApp.Entity\
+build_property.ProjectDir = C:\Users\MONSTER\Desktop\MiniShopApp\MiniShopApp.Entity\
