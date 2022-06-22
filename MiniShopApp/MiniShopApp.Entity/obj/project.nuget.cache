@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uBtf5+jPbpzEUy0G+DaF/JnpILUoucqhEHXHo7wnacCFqzU6ikIbJHt9iTNi07bZMwB/Q0YO579nC5oqF8bYkw==",
+  "dgSpecHash": "K/KPdNyjKhwmyymTawBVfTWS0f26SkNBbe4QDHAnIa+pFSvpeykQU0C5VSsK+ERnCtfwcJjbfz0Co6ZP2HATRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MONSTER\\Desktop\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj",
+  "projectFilePath": "C:\\Users\\MONSTER\\Desktop\\minishp\\MiniShopApp\\MiniShopApp.Entity\\MiniShopApp.Entity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

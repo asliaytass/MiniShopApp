@@ -1,0 +1,12 @@
+C:\Users\MONSTER\Desktop\minishp\MiniShopApp\MiniShopApp.Entity\bin\Release\net5.0\MiniShopApp.Entity.deps.json
+C:\Users\MONSTER\Desktop\minishp\MiniShopApp\MiniShopApp.Entity\bin\Release\net5.0\MiniShopApp.Entity.dll
+C:\Users\MONSTER\Desktop\minishp\MiniShopApp\MiniShopApp.Entity\bin\Release\net5.0\ref\MiniShopApp.Entity.dll
+C:\Users\MONSTER\Desktop\minishp\MiniShopApp\MiniShopApp.Entity\bin\Release\net5.0\MiniShopApp.Entity.pdb
+C:\Users\MONSTER\Desktop\minishp\MiniShopApp\MiniShopApp.Entity\obj\Release\net5.0\MiniShopApp.Entity.csproj.AssemblyReference.cache
+C:\Users\MONSTER\Desktop\minishp\MiniShopApp\MiniShopApp.Entity\obj\Release\net5.0\MiniShopApp.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MONSTER\Desktop\minishp\MiniShopApp\MiniShopApp.Entity\obj\Release\net5.0\MiniShopApp.Entity.AssemblyInfoInputs.cache
+C:\Users\MONSTER\Desktop\minishp\MiniShopApp\MiniShopApp.Entity\obj\Release\net5.0\MiniShopApp.Entity.AssemblyInfo.cs
+C:\Users\MONSTER\Desktop\minishp\MiniShopApp\MiniShopApp.Entity\obj\Release\net5.0\MiniShopApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\Desktop\minishp\MiniShopApp\MiniShopApp.Entity\obj\Release\net5.0\MiniShopApp.Entity.dll
+C:\Users\MONSTER\Desktop\minishp\MiniShopApp\MiniShopApp.Entity\obj\Release\net5.0\ref\MiniShopApp.Entity.dll
+C:\Users\MONSTER\Desktop\minishp\MiniShopApp\MiniShopApp.Entity\obj\Release\net5.0\MiniShopApp.Entity.pdb
